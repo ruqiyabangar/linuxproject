@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "zeeshandynamo/linuxproject:latest"
+        DOCKER_IMAGE = "ruqiyabangar/linuxproject:latest"
     }
 
     stages {
         stage('Checkout Code') {
             steps {
                 echo "📥 Checking out latest code from GitHub..."
-                git branch: 'main', url: 'https://github.com/zeeshandynamo/linuxproject.git'
+                git branch: 'main', url: 'https://github.com/ruqiyabangar/linuxproject.git'
             }
         }
 
