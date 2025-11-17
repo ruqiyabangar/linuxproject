@@ -50,9 +50,9 @@ pipeline {
                     docker rm -f linuxproject || true
 
                     # Run new container (host 8081 -> container 3000)
-                    docker run -d --name linuxproject -p 8081:3000 $DOCKER_IMAGE
+                    docker run -d --name linuxproject -p 8090:3000 $DOCKER_IMAGE
 
-                    echo "✅ Container running successfully on port 8081"
+                    echo "✅ Container running successfully on port 8090"
                 '''
             }
         }
