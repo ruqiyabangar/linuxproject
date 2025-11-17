@@ -58,10 +58,9 @@ app.get('/', (req, res) => {
         <h3>Under the guidance of Sarfaraz sir</h3>
 
         <ul>
-          <li>👩‍💻 Hena Tabbu </li>
-          <li>👨‍💻 Zeeshan Ali M </li>
+          <li>👩‍💻 John </li>
+          <li>👨‍💻 Shan </li>
           <li>👩‍💻 Naeem  </li>
-          <li>👨‍💻 Irshad Ahmed </li>
         </ul>
 
         <div class="footer">
